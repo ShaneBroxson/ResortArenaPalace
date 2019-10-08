@@ -6,6 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+/**
+ * Project Resort Arena Palace.
+ * The current version of the software includes tabs for the future pages.
+ * @author Legendary Coders
+ */
+
+
 public class Main extends Application {
 
     @Override
@@ -15,12 +22,6 @@ public class Main extends Application {
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
-
-    /**
-     * Project Git/Github Activity Submission
-     * @author Team Tuesday7
-     */
-
 
     public static void main(String[] args) {
         launch(args);
