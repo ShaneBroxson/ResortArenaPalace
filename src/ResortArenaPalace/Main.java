@@ -16,6 +16,11 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+    /**
+     * Project Git/Github Activity Submission
+     * @author Team Tuesday7
+     */
+
 
     public static void main(String[] args) {
         launch(args);
