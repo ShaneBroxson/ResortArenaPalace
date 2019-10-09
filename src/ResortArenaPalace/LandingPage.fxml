@@ -20,7 +20,7 @@
             <TabPane prefHeight="324.0" prefWidth="376.0" tabClosingPolicy="UNAVAILABLE">
                 <Tab fx:id="tab_home" text="Home Page">
                     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                  <Button fx:id="btn_ckAv" layoutX="120.0" layoutY="127.0" mnemonicParsing="false" text="Check Availability" textFill="#14d0c7" />
+                  <Button fx:id="btn_ckAv" layoutX="120.0" layoutY="127.0" mnemonicParsing="false" onAction="#changeScreenRoomAv" text="Check Availability" textFill="#14d0c7" />
                     </AnchorPane>
                 </Tab>
                 <Tab fx:id="tab_wellness" text="Wellness">
