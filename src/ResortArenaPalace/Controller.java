@@ -39,6 +39,9 @@ public class Controller {
   private DatePicker checkout_pick;
 
   @FXML
+  private Button btnSignin;
+
+  @FXML
   private ComboBox<String> noguests_pick;
 
   @FXML
@@ -75,6 +78,16 @@ public class Controller {
     Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
     window.setScene(roomAvScene);
     window.show();
+  }
+
+  @FXML
+  void changeScreenUserAccount(ActionEvent actionEvent) throws IOException {
+    Parent userAccountParent = FXMLLoader.load(getClass().getResource("UserAccount.fxml"));
+    Scene roomAvScene = new Scene(userAccountParent);
+
+    Stage uAWindow = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+    uAWindow.setScene(roomAvScene);
+    uAWindow.show();
   }
   //==============================================================================================
 }
