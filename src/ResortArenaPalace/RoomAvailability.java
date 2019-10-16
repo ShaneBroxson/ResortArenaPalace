@@ -5,7 +5,7 @@ import javafx.scene.layout.AnchorPane;
 
 public class RoomAvailability {
 
-  /*@FXML
-  private AnchorPane lbl_RoomAv;*/
+  @FXML
+  private AnchorPane lbl_RoomAv;
 
 }
