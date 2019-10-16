@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.TextFlow?>
 
-<AnchorPane fx:id="lbl_RoomAv" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResortArenaPalace.RoomAvailability">
+<AnchorPane fx:id="lbl_RoomAv" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.221" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ResortArenaPalace.RoomAvailability">
       <Label layoutX="285.0" layoutY="20.0" text="Room Availability" textFill="#14d0c7">
          <font>
             <Font size="28.0" />
@@ -26,5 +27,6 @@
                 <Font size="18.0" />
             </font>
         </Label>
+   <Button fx:id="btn_Select1rm" layoutX="550.0" layoutY="167.0" mnemonicParsing="false" onAction="#changeR1toPay" text="Select Room" />
 
 </AnchorPane>
