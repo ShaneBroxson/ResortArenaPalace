@@ -22,7 +22,6 @@ public class UserAccount {
   @FXML
   private ComboBox<String> cBox_UType;
 
-
   @FXML
   private Label lbl_UName;
 

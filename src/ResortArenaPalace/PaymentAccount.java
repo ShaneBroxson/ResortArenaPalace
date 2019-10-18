@@ -1,5 +1,5 @@
 package ResortArenaPalace;
-
+//Payment and User Account
 public class PaymentAccount {
 
     // back button trial 1
