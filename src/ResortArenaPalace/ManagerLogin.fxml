@@ -32,7 +32,7 @@
                   <Insets left="320.0" />
                </GridPane.margin>
             </Label>
-            <TextField fx:id="txtField_MUName" GridPane.columnIndex="1">
+            <TextField fx:id="txtField_MUName" promptText="enter user name" GridPane.columnIndex="1">
                <GridPane.margin>
                   <Insets right="150.0" />
                </GridPane.margin>
@@ -42,11 +42,11 @@
                   <Insets left="330.0" />
                </GridPane.margin>
             </Label>
-            <PasswordField fx:id="passfld_MUPassword" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <PasswordField fx:id="passfld_MUPassword" promptText="enter password" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
                   <Insets right="150.0" />
                </GridPane.margin>
             </PasswordField>
-            <Button fx:id="btn_ManagerSignin" mnemonicParsing="false" text="Sign In" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="btn_ManagerSignIn" mnemonicParsing="false" onAction="#changeManToReport" text="Sign In" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       </GridPane>
 </AnchorPane>

@@ -14,7 +14,7 @@
         <Font size="18.0" />
       </font>
     </Label>
-    <Button layoutX="300.0" layoutY="649.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="121.0" text="Reserve Room" textFill="#14d0c7">
+    <Button fx:id="btn_ReserveRoom" layoutX="298.0" layoutY="635.0" mnemonicParsing="false" onAction="#showConfirmation" prefHeight="30.0" prefWidth="121.0" text="Reserve Room" textFill="#14d0c7">
       <font>
         <Font size="14.0" />
       </font>
@@ -49,5 +49,6 @@
     <TextField layoutX="188.0" layoutY="465.0" />
     <TextField layoutX="188.0" layoutY="503.0" />
     <TextField layoutX="188.0" layoutY="536.0" />
-   <Button fx:id="btn_GoBackRoomA" layoutX="63.0" layoutY="649.0" mnemonicParsing="false" onAction="#changePayToRoomA" text="Go back" />
+   <Button fx:id="btn_GoBackRoomA" layoutX="65.0" layoutY="634.0" mnemonicParsing="false" onAction="#changePayToRoomA" text="Go back" />
+   <Label fx:id="lbl_RoomConf" layoutX="140.0" layoutY="683.0" prefHeight="21.0" prefWidth="186.0" />
 </Pane>

@@ -8,6 +8,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 //Payment and User Account
@@ -15,6 +16,12 @@ public class PaymentAccount {
 
   @FXML
   private Button btn_GoBackRoomA;
+
+  @FXML
+  private Button btn_ReserveRoom;
+
+  @FXML
+  private Label lbl_RoomConf;
 
   @FXML
   void changePayToRoomA(ActionEvent event) throws IOException {
@@ -26,6 +33,9 @@ public class PaymentAccount {
     payWindow.show();
   }
 
-
+  @FXML
+  void showConfirmation(ActionEvent event) {
+    lbl_RoomConf.setText("Room Booked. Thank You!");
+  }
 
 }

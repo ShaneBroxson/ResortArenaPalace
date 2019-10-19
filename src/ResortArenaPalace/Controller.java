@@ -10,12 +10,16 @@ package ResortArenaPalace;
     import javafx.scene.Parent;
     import javafx.scene.Scene;
     import javafx.scene.control.Button;
+    import javafx.scene.control.Label;
     import javafx.scene.control.Tab;
     import javafx.stage.Stage;
     import javafx.scene.control.ComboBox;
     import javafx.scene.control.DatePicker;
 
 public class Controller {
+
+  @FXML
+  private Label lbl_TitleHome;
 
   @FXML
   private Tab tab_home;

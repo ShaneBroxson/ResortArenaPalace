@@ -28,5 +28,6 @@
             </font>
         </Label>
    <Button fx:id="btn_Select1rm" layoutX="550.0" layoutY="167.0" mnemonicParsing="false" onAction="#changeR1toPay" text="Select Room" />
+   <Button fx:id="btn_GoHomeRA" layoutX="26.0" layoutY="25.0" mnemonicParsing="false" onAction="#changeRAToHome" text="Go Home" />
 
 </AnchorPane>
