@@ -16,6 +16,7 @@
       <ComboBox fx:id="noguests_pick" layoutX="125.0" layoutY="359.0" prefHeight="31.0" prefWidth="129.0" promptText="No. Guests" />
       <ComboBox fx:id="room_pick" layoutX="273.0" layoutY="359.0" prefHeight="31.0" prefWidth="119.0" promptText="1 room" />
          <Button fx:id="btnSignin" layoutX="691.0" layoutY="26.0" mnemonicParsing="false" onAction="#changeScreenUserAccount" text="Sign In" />
+         <Button fx:id="btn_ManagerHome" layoutX="670.0" layoutY="399.0" mnemonicParsing="false" onAction="#changeHomeToManLog" text="Management" />
     </AnchorPane>
   </Tab>
   <Tab fx:id="tab_wellness" text="Wellness">

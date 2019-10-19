@@ -42,6 +42,9 @@ public class Controller {
   private Button btnSignin;
 
   @FXML
+  private Button btn_ManagerHome;
+
+  @FXML
   private ComboBox<String> noguests_pick;
 
   @FXML
@@ -67,6 +70,16 @@ public class Controller {
     noguests_pick.setItems(noguest);//sets the items in the ComboBox
     noguests_pick.setEditable(true);//Allows the user edit
     noguests_pick.getSelectionModel().selectFirst();//Sets a default value in the ComboBox
+  }
+
+  @FXML
+  void changeHomeToManLog(ActionEvent event) throws IOException {
+    Parent manLoginParent = FXMLLoader.load(getClass().getResource("ManagerLogin.fxml"));
+    Scene managerScene = new Scene(manLoginParent);
+
+    Stage mLWindow = (Stage) ((Node) event.getSource()).getScene().getWindow();
+    mLWindow.setScene(managerScene);
+    mLWindow.show();
   }
 
   /*Method that changes the scene from "home scene" to "check availability scene" when the user
