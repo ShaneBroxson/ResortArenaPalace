@@ -13,18 +13,24 @@
 * JavaFX
 ## Contributing
 
-## Author
+## Authors
 * Shane Broxson
 * Iman Essaghir
 * Mireya Hernandez Cruz
 * Benjamin Kotwall
 * Yoisi Low Gonzalez
 * Gianni Perez
+
 ## License
 GNU General Public License
+
 ## Acknowledgments
 * StackOverFlow
+
 ## History
+
+## First preview of the software
+https://drive.google.com/file/d/1T3Wn6rUYQMldoa9ntdLhChPQp992EJ_0/view?usp=sharing
 
 ## Software description
 The software product to be produced is a Resort Booking System which will automate the hotel’s reservation and booking process. The system shall be able to handle rooms’ reservation in an appropriate way and with a subjective satisfaction. It includes 6 subsystems:
